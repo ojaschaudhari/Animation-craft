@@ -1,0 +1,60 @@
+﻿/* HEADER */
+nav button:hover{
+	background-color: #783e07;
+}
+
+.my-nav {
+	background-color: #1B4F6D;
+}
+
+.my-nav img {
+	height: 50px;
+}
+
+.my-nav a {
+	color: #ffffff;
+}
+
+.my-nav button {
+	margin:auto;
+}
+
+.dropdown-menu a {
+	color: #000000;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	background-color: #d1e0e0;
+}
+/* HEADER OVER */
+
+/* FOOTER */
+.social{
+	margin: 20px 0 0 0;
+}
+
+.social a{
+	padding: 0 10px;
+}
+.social a span{
+	height:40px;
+	width: 40px;
+	/*background:#00172D ;*/
+	background:#ffffff ;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+.social a span:hover{
+	background: #1d2152;
+}
+
+.my-border {
+	border-bottom: 3px solid red;
+}
+
+
+/* FOOTER OVER*/

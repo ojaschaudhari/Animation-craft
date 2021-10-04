@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        canvas {
+            background:linear-gradient(to bottom, #0a1535 0%,#103566 25%,#163a75 50%,#0c528e 75%);
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/> 
+</head>
+<body style="background-color: #000000 ;">
+    <canvas class="w-100" style="z-index: 0; position: absolute;"> </canvas>
+
+    <div class="d-flex" style="z-index: 1; position: relative;">
+        <form name="myform" onsubmit="return onsub()" method="post" class="mt-5 ms-5">
+            <div class="input-group row g-2">
+                <div class="col-auto">
+                    <label for="number" class="form-label text-white"> Number Of Circle:- </label>
+                    <input type="number" name="number" class="form-control" value="425"> 
+                </div>
+            
+                <div class="col-auto">                
+                    <label for="radius" class="form-label text-white"> Radius Of Circle:- </label>
+                    <input type="number" name="radius" class="form-control" value="15"> 
+                </div>
+            </div>
+
+            <div class="input-group">
+                <input type="color" class="form-control form-control-color mx-3 my-3" id="color1" value="#FF0000" title="Choose your color">
+                <input type="color" class="form-control form-control-color mx-3 my-3" id="color2" value="#00FF00" title="Choose your color">
+                <input type="color" class="form-control form-control-color mx-3 my-3" id="color3" value="#0000FF" title="Choose your color">
+                <input type="color" class="form-control form-control-color mx-3 my-3" id="color4" value="#FFFF00" title="Choose your color">
+            </div>
+            
+            <input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="../js/collision.js"> </script>
+</body>
+</html>

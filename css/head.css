@@ -1,0 +1,27 @@
+﻿body {
+  margin:  0 4rem;
+  background-color: blueviolet;
+}
+
+.header {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 6rem;
+  font-weight:  100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 5s infinite linear;
+  margin-bottom: 5rem;;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-90deg);
+  }
+}

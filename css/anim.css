@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#anim {
+    background:linear-gradient(to bottom, #0a1535 0%,#103566 25%,#163a75 50%,#0c528e 75%);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+
+#box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#box li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(255,255,255,0.8);
+    animation: animate 15s linear infinite;
+}
+
+#button1 {
+    position: relative;
+    z-index: 1;
+    margin-top: 750px;;
+}
+
+#button2 {
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;;
+}
